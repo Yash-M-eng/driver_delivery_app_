@@ -34,8 +34,8 @@ yarn-error.*
 .env
 .env*.local
 
-# Firebase Android (download from Firebase Console; do not commit)
-google-services.json
+# Firebase Android: keep google-services.json tracked so EAS Build receives it (gitignored files are not uploaded).
+# To avoid committing it, use an EAS file env var GOOGLE_SERVICES_JSON instead (see app.config.js).
 
 # Firebase / Google — FCM V1 service account private key (Project settings → Service accounts → Generate new private key)
 *-firebase-adminsdk-*.json

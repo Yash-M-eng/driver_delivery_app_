@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "466070965427",
+    "project_id": "driverdeliveryapp-c2c6b",
+    "storage_bucket": "driverdeliveryapp-c2c6b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466070965427:android:4d8cef111818d34a18f4c6",
+        "android_client_info": {
+          "package_name": "com.yashmalawant12.expodeliverydriver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMorfrWOp5b8Drw6Ax5SLzTeYu8hu3edY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
