@@ -183,7 +183,12 @@ export default function OptimizedRouteScreen({ route }: OptimizedRouteScreenProp
 
   return (
     <View style={styles.container}>
-      <MapView ref={mapRef} style={styles.map} initialRegion={mapRegion} region={mapRegion} showsUserLocation>
+      <MapView
+        ref={mapRef}
+        style={styles.map}
+        initialRegion={mapRegion}
+        showsUserLocation
+      >
         {optimizedStops.map((stop, index) => (
           <Marker
             key={stop.id}
