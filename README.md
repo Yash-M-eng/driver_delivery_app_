@@ -59,7 +59,7 @@ Update `app.json` / `app.config.js` output as needed:
 
 - `expo.extra.eas.projectId` — your [EAS project ID](https://docs.expo.dev/push-notifications/push-notifications-setup/#configure-projectid) (required for `getExpoPushTokenAsync`).
 
-**Android (FCM)** for push on real devices: follow [FCM credentials (Expo)](https://docs.expo.dev/push-notifications/fcm-credentials/). Place `google-services.json` in the project root (gitignored) and under `android/app/` for local Gradle builds; add FCM credentials in the Expo dashboard for EAS builds.
+**Android push on real devices:** configure [FCM credentials in the Expo dashboard](https://docs.expo.dev/push-notifications/fcm-credentials/) if you use EAS Build; this repo does not ship Firebase config files.
 
 ## 4) Supabase database (migrations)
 

@@ -12,12 +12,6 @@ module.exports = {
     ...appJson.expo,
     android: {
       ...(appJson.expo.android ?? {}),
-      // EAS Build: upload `google-services.json` as a project file env var named GOOGLE_SERVICES_JSON
-      // (secret/sensitive). Local builds use the repo-root file from app.json.
-      googleServicesFile:
-        process.env.GOOGLE_SERVICES_JSON ??
-        appJson.expo.android?.googleServicesFile ??
-        "./google-services.json",
       config: {
         ...((appJson.expo.android ?? {}).config ?? {}),
         googleMaps: {
